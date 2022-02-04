@@ -1,0 +1,196 @@
+Script iniciado en 2022-01-29 19:53:50+01:00 [TERM="xterm-256color" TTY="/dev/pts/41" COLUMNS="117" LINES="37"]
+]0;crsintes@simba: ~[01;32mcrsintes@simba[00m:[01;34m~[00m$ git clone /srv/git/prpa
+fatal: la ruta de destino 'prpa' ya existe y no es un directorio vacío.
+]0;crsintes@simba: ~[01;32mcrsintes@simba[00m:[01;34m~[00m$ cd prpa
+]0;crsintes@simba: ~/prpa[01;32mcrsintes@simba[00m:[01;34m~/prpa[00m$ touch datos_00.txt
+]0;crsintes@simba: ~/prpa[01;32mcrsintes@simba[00m:[01;34m~/prpa[00m$ git init[K[K[K[Kadd .
+]0;crsintes@simba: ~/prpa[01;32mcrsintes@simba[00m:[01;34m~/prpa[00m$ git commit -m "Archibo[K[Kvo nuevo"
+En la rama master
+nada para hacer commit, el árbol de trabajo está limpio
+]0;crsintes@simba: ~/prpa[01;32mcrsintes@simba[00m:[01;34m~/prpa[00m$ git push
+fatal: No se ha configurado un destino para el push.
+Puedes o especificar una URL desde la línea de comandos o configurar un repositorio remoto usando
+
+    git remote add <nombre> <url>
+
+y luego haciendo push al nombre del remoto
+
+    git push <nombre>
+
+]0;crsintes@simba: ~/prpa[01;32mcrsintes@simba[00m:[01;34m~/prpa[00m$ pit `[Kpu[K[K[K[K[K[Kgit pull
+No hay información de rastreo para la rama actual.
+Por favor especifica a qué rama quieres fusionar.
+Ver git-pull(1) para detalles.
+
+    git pull <remoto> <rama>
+
+Si deseas configurar el rastreo de información para esta rama, puedes hacerlo con:
+
+    git branch --set-upstream-to=<remoto>/<rama> master
+
+]0;crsintes@simba: ~/prpa[01;32mcrsintes@simba[00m:[01;34m~/prpa[00m$ git push
+fatal: No se ha configurado un destino para el push.
+Puedes o especificar una URL desde la línea de comandos o configurar un repositorio remoto usando
+
+    git remote add <nombre> <url>
+
+y luego haciendo push al nombre del remoto
+
+    git push <nombre>
+
+]0;crsintes@simba: ~/prpa[01;32mcrsintes@simba[00m:[01;34m~/prpa[00m$ ls -la
+total 128
+drwxr-xr-x 13 crsintes crsintes  4096 ene 29 19:43 [0m[01;34m.[0m
+drwxr-xr-x  8 crsintes crsintes  4096 ene 29 19:52 [01;34m..[0m
+drwxr-xr-x  2 crsintes crsintes  4096 ene 27 10:31 [01;34mauto[0m
+-rw-r--r--  1 crsintes crsintes     0 ene 29 19:54 datos_00.txt
+-rw-r--r--  1 crsintes crsintes     0 ene 28 21:30 datos_01.txt
+-rw-r--r--  1 crsintes crsintes     0 ene 28 21:30 datos_02.txt
+-rw-r--r--  1 crsintes crsintes     0 ene 28 21:30 datos_03.txt
+-rw-r--r--  1 crsintes crsintes     0 ene 28 21:30 datos_04.txt
+-rw-r--r--  1 crsintes crsintes     0 ene 28 21:30 datos_05.txt
+-rw-r--r--  1 crsintes crsintes     0 ene 28 21:30 datos_06.txt
+-rw-r--r--  1 crsintes crsintes     0 ene 28 21:30 datos_07.txt
+-rw-r--r--  1 crsintes crsintes     0 ene 27 11:01 datos_08.txt
+-rw-r--r--  1 crsintes crsintes    49 ene 28 21:30 datos_09.txt
+-rw-r--r--  1 crsintes crsintes     0 ene 27 11:01 datos_10.txt
+-rw-r--r--  1 crsintes crsintes     0 ene 28 21:30 datos_11.txt
+-rw-r--r--  1 crsintes crsintes     0 ene 27 10:31 datos12.txt
+-rw-r--r--  1 crsintes crsintes     0 ene 27 11:01 datos_14.txt
+-rw-r--r--  1 crsintes crsintes     0 ene 27 11:01 datos_16.txt
+-rw-r--r--  1 crsintes crsintes     0 ene 27 11:01 datos_17.txt
+-rw-r--r--  1 crsintes crsintes     0 ene 27 10:31 datos_18.txt
+-rw-r--r--  1 crsintes crsintes     0 ene 28 21:30 datos_27.txt
+-rw-r--r--  1 crsintes crsintes    78 ene 27 10:31 datos.txt
+drwxr-xr-x  4 crsintes crsintes  4096 ene 27 11:29 [01;34mejemplos[0m
+drwxr-xr-x  2 crsintes crsintes  4096 ene 27 10:31 [01;34mejercicios[0m
+-rw-r--r--  1 crsintes crsintes 64390 ene 27 10:31 [01;35mescudo.png[0m
+drwxr-xr-x  2 crsintes crsintes  4096 ene 27 10:31 [01;34mestilo[0m
+drwxr-xr-x  4 crsintes crsintes  4096 ene 27 10:31 [01;34mexamenes[0m
+drwxr-xr-x  8 crsintes crsintes  4096 ene 29 19:55 [01;34m.git[0m
+-rw-r--r--  1 crsintes crsintes   616 ene 28 21:30 .ipynb
+drwxr-xr-x  2 crsintes crsintes  4096 ene 29 18:26 [01;34m.ipynb_checkpoints[0m
+drwxr-xr-x  3 crsintes crsintes  4096 ene 27 10:31 [01;34mipython[0m
+drwxr-xr-x  4 crsintes crsintes  4096 ene 27 10:31 [01;34mnotebook[0m
+-rw-r--r--  1 crsintes crsintes     0 ene 28 21:30 patata
+drwxr-xr-x  5 crsintes crsintes  4096 ene 27 10:31 [01;34mpracticas[0m
+drwxr-xr-x  2 crsintes crsintes  4096 ene 27 10:31 [01;34mproblemas[0m
+]0;crsintes@simba: ~/prpa[01;32mcrsintes@simba[00m:[01;34m~/prpa[00m$ cd examenes
+]0;crsintes@simba: ~/prpa/examenes[01;32mcrsintes@simba[00m:[01;34m~/prpa/examenes[00m$ ls -la
+total 16
+drwxr-xr-x  4 crsintes crsintes 4096 ene 27 10:31 [0m[01;34m.[0m
+drwxr-xr-x 13 crsintes crsintes 4096 ene 29 19:43 [01;34m..[0m
+drwxr-xr-x  2 crsintes crsintes 4096 ene 27 10:31 [01;34menero_2018[0m
+drwxr-xr-x  3 crsintes crsintes 4096 ene 27 10:31 [01;34mfeb[0m
+]0;crsintes@simba: ~/prpa/examenes[01;32mcrsintes@simba[00m:[01;34m~/prpa/examenes[00m$ rm just
+rm: no se puede borrar 'just': No existe el fichero o el directorio
+]0;crsintes@simba: ~/prpa/examenes[01;32mcrsintes@simba[00m:[01;34m~/prpa/examenes[00m$ cd ..
+]0;crsintes@simba: ~/prpa[01;32mcrsintes@simba[00m:[01;34m~/prpa[00m$ mkdir ejemep[K[Kplos_new
+]0;crsintes@simba: ~/prpa[01;32mcrsintes@simba[00m:[01;34m~/prpa[00m$ cp -r ej[Ke[Kjemplos ejemplos_new
+]0;crsintes@simba: ~/prpa[01;32mcrsintes@simba[00m:[01;34m~/prpa[00m$ cd ejemplos_new
+]0;crsintes@simba: ~/prpa/ejemplos_new[01;32mcrsintes@simba[00m:[01;34m~/prpa/ejemplos_new[00m$ cp escudo.png ejemplos
+cp: no se puede efectuar `stat' sobre 'escudo.png': No existe el fichero o el directorio
+]0;crsintes@simba: ~/prpa/ejemplos_new[01;32mcrsintes@simba[00m:[01;34m~/prpa/ejemplos_new[00m$ cd ..
+]0;crsintes@simba: ~/prpa[01;32mcrsintes@simba[00m:[01;34m~/prpa[00m$ cp escudo.png ejemplso[K[Kos
+]0;crsintes@simba: ~/prpa[01;32mcrsintes@simba[00m:[01;34m~/prpa[00m$ cd[Kp escudo.png ejemplos_new
+]0;crsintes@simba: ~/prpa[01;32mcrsintes@simba[00m:[01;34m~/prpa[00m$ cd ..[K[K[K[K[Krm -r ejeme[Kplos_new
+]0;crsintes@simba: ~/prpa[01;32mcrsintes@simba[00m:[01;34m~/prpa[00m$ find -name "*py" | grep radius
+]0;crsintes@simba: ~/prpa[01;32mcrsintes@simba[00m:[01;34m~/prpa[00m$ find -name "*py[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kcd ..
+]0;crsintes@simba: ~[01;32mcrsintes@simba[00m:[01;34m~[00m$ find -name "*tex"
+./prpa/estilo/estilo.tex
+./prpa/ejercicios/hoja3.tex
+./prpa/ejercicios/hoja4.tex
+./prpa/practicas/p2/Informatica2017-2018_Practica2.tex
+./prpa/practicas/p0/datosAsignatura.tex
+./prpa/practicas/p0/practica_0_domino.tex
+./prpa/practicas/p1/datosAsignatura.tex
+./prpa/practicas/p1/practica_1_ajedrez.tex
+./prpa/problemas/datosAsignatura.tex
+./prpa/problemas/hoja1.tex
+./prpa/problemas/hoja3.tex
+./prpa/problemas/hoja2.tex
+./prpa/examenes/feb/curso2016/feb2016.tex
+./prpa/examenes/feb/codigos_simon.tex
+./prpa/examenes/feb/ene2018.tex
+./prpa/examenes/feb/ene2017_simon.tex
+./prpa/examenes/feb/codigos_2018.tex
+]0;crsintes@simba: ~[01;32mcrsintes@simba[00m:[01;34m~[00m$ cd prpa
+]0;crsintes@simba: ~/prpa[01;32mcrsintes@simba[00m:[01;34m~/prpa[00m$ du -s *z[K | sort -r
+7280	notebook
+64	escudo.png
+500	ipython
+4	datos.txt
+4	datos_09.txt
+484	practicas
+20	problemas
+1852	examenes
+176	ejemplos
+12	ejercicios
+12	auto
+104	estilo
+0	patata
+0	datos_27.txt
+0	datos_18.txt
+0	datos_17.txt
+0	datos_16.txt
+0	datos_14.txt
+0	datos12.txt
+0	datos_11.txt
+0	datos_10.txt
+0	datos_08.txt
+0	datos_07.txt
+0	datos_06.txt
+0	datos_05.txt
+0	datos_04.txt
+0	datos_03.txt
+0	datos_02.txt
+0	datos_01.txt
+0	datos_00.txt
+]0;crsintes@simba: ~/prpa[01;32mcrsintes@simba[00m:[01;34m~/prpa[00m$ rm not[K[K[K-r notebook
+]0;crsintes@simba: ~/prpa[01;32mcrsintes@simba[00m:[01;34m~/prpa[00m$ cd exmane[K[K[K[Kamenes/feb
+]0;crsintes@simba: ~/prpa/examenes/feb[01;32mcrsintes@simba[00m:[01;34m~/prpa/examenes/feb[00m$ head -n20 ene2018.tex
+\documentclass[10pt]{examdesign}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\selectlanguage{spanish}
+\usepackage{listings}
+\usepackage[margin=1in]{geometry}
+\usepackage{enumerate}
+
+\lstset{
+  language=Python,
+  frame=single,
+  basicstyle=\sffamily,
+  showstringspaces=false
+  %basicstyle=\ttfamily,
+}
+
+\NumberOfVersions{4} %Poner a 2 en la versión final
+\NoRearrange % Eliminar para generar el examen definitivo
+\ContinuousNumbering
+\IncludeFromFile{codigos_2018.tex}
+]0;crsintes@simba: ~/prpa/examenes/feb[01;32mcrsintes@simba[00m:[01;34m~/prpa/examenes/feb[00m$ tail -n20 ebe[K[Kne2018.tex
+\lstinline{\"la\"}, \lstinline{\"mancha\"}, \lstinline{\"de\"}, \lstinline{\"cuyo\"} y \lstinline{\"nombre\"}.
+Para distinguir si un carácter es una letra o un signo de puntuación o separador puedes suponer definida la siguiente función:
+  \InsertChunk{def_is_letter}
+
+Escribe una función en Python que dada una cadena de caracteres devuelva la lista de las palabras que contiene.
+
+
+  \end{question}
+
+
+
+
+\end{shortanswer}
+
+\end{document}
+
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: t
+%%% End:
+]0;crsintes@simba: ~/prpa/examenes/feb[01;32mcrsintes@simba[00m:[01;34m~/prpa/examenes/feb[00m$ cd
+]0;crsintes@simba: ~[01;32mcrsintes@simba[00m:[01;34m~[00m$ exit
+
+Script terminado en 2022-01-29 20:09:25+01:00 [CÓDIGO_SALIDA_ORDEN="0"]
